@@ -60,6 +60,9 @@ const changeMarker = () => {
 
 // This "resetBoard" function is called when the user clicks on the "Restart" button.
 const resetBoard = () => {
+  const squares = document.getElementsByTagName("td")
+  
+    
   
   // @TODO-3: To make your "Restart" button work you'll need to build a line of code here that:
       // collects all of the "td" elements into an HTML Collection: https://www.w3schools.com/jsref/dom_obj_htmlcollection.asp  
